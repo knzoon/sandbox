@@ -25,6 +25,13 @@
 		<tag></tag>
 		<url></url>
 	</scm>
+	<distributionManagement>
+		<repository>
+			<id>internal.repo</id>
+			<name>Internal repo</name>
+			<url>file:///hobby/knzoon/repo</url>
+		</repository>
+	</distributionManagement>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
