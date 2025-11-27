@@ -1,13 +1,17 @@
 package org.knzoon.sandbox;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
 
+    @Value("${sandbox.apa}")
+    private String whatToGreet;
+
     @GetMapping("/")
     public String index() {
-        return "Hello even more improved world";
+        return "Hello ->" + whatToGreet + "<-";
     }
 }
