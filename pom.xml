@@ -20,10 +20,7 @@
 		<developer />
 	</developers>
 	<scm>
-		<connection></connection>
 		<developerConnection>scm:git:https://github.com/knzoon/sandbox.git</developerConnection>
-		<tag></tag>
-		<url></url>
 	</scm>
 	<distributionManagement>
 		<repository>
