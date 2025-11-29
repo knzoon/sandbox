@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>org.knzoon</groupId>
 	<artifactId>sandbox</artifactId>
-	<version>1.0.4-SNAPSHOT</version>
+	<version>1.0.4</version>
 	<name>sandbox</name>
 	<description>Testing app for versioning</description>
 	<url />
@@ -21,7 +21,8 @@
 	</developers>
 	<scm>
 		<developerConnection>scm:git:https://github.com/knzoon/sandbox.git</developerConnection>
-	</scm>
+	  <tag>sandbox-1.0.4</tag>
+  </scm>
 	<distributionManagement>
 		<repository>
 			<id>internal.repo</id>
